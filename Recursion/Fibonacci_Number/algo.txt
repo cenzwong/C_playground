@@ -1,0 +1,21 @@
+Fib(n) = {0 if n = 0, 1 if n = 1, Fib(n-1) + Fib(n-2) if n >=2
+
+Procedure Fib(int n)
+begin
+	if(n=0) return 0;
+	if(n=1) return 1;
+	if(n >= 2) return Fib(n-1)+Fib(n-2);
+end
+
+begin
+	if(n = 0) return 0;
+	else if(n = 1) return 1;
+	else
+		begin
+			Fa = 0; Fb = 1;
+			for (i = 2; i <= n; i++){
+				Fc = Fa + Fb;
+				Fa = Fb;
+				Fb = Fc;				
+			}
+		end

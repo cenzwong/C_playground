@@ -1,0 +1,8 @@
+Euclidean algorithum
+
+GCD(A,B) = {
+B if A%B = 0;
+
+GCD(B,A%B);
+
+}

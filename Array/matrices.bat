@@ -1,0 +1,1 @@
+gcc -o ./matrices ./matrices.c

@@ -1,0 +1,1 @@
+gcc -o ./gcd ./gcd.c

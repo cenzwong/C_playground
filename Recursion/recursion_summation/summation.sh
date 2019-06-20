@@ -1,0 +1,1 @@
+gcc -o ./summation ./summation.c

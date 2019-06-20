@@ -1,0 +1,1 @@
+gcc -o ./queue ./queue.c

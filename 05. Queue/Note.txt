@@ -1,0 +1,55 @@
+Queue, FIFO
+
+1. Add
+2. Delete
+3. IsFull
+4. IsEmpty
+
+Procedure Add(item, Quenue)
+begin
+	if(Rear = N-1)
+		Queue Is Full;
+	else
+	{
+		Rear = Rear+1;
+		Queue[Rear] = item;
+	}
+end
+
+Procedure Delete(item, Queue)
+begin
+	if (Front = Rear)
+		Queue Is Empty;
+	else
+	{
+		Front = Front + 1;
+		item = Queue[Front];
+	}
+End
+
+Procedure IsFull(Queue)
+begin
+	if(Rear = N-1) And (Front = -1)
+		return True;
+	else
+		return False;
+end
+
+Procedure IsEmpty(Queue)
+begin
+	if(Front = Rear)
+		return True;
+	else
+		return False;
+end
+
+
+#define N 10
+char Queue[N];
+int Front = -1;
+int Rear = -1;
+
+
+priority queue
+double-ended queue: deque
+

@@ -1,0 +1,24 @@
+Linear List
+
+Dynamical Memory Allocation
+malloc(), free(), sizeof() is in the stdlib.h
+acquire memory on the Run
+
+int *pt;
+pt = (int *) malloc(sizeof(int));
+
+free(pt); // to free the memory of the program
+
+Comparision between Static and Dynamic data structure
+
+Static 
+- Save memory
+- Add, delete, merge need large data movement
+- can access directly
+- can do the binary search
+
+Dynamic
+- Waste memory since more pointer
+- add, delete, merge only change pointer
+- cannot direct access
+- cannot do the bsearch
